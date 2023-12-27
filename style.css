@@ -1,0 +1,201 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    display: none;
+}
+
+input {
+    width: 500px;
+    padding-right: 2.5rem;
+}
+
+.services {
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 1rem;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+.adjustable {
+    display: none;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 2rem;
+    width: 100px;
+    margin-left: 20%;
+}
+
+
+#search-icon {
+    position: absolute;
+    left: 11rem;
+    top: .35rem;
+    width: 1rem
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.ctgry-img-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ctgrys {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.ctgry-img p {
+    text-align: center;
+}
+
+.ctgry-img {
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+
+.row,
+.row2,
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0%;
+    width: 100%; */
+}
+
+.row1 {
+    /* flex: 1; */
+    box-sizing: border-box;
+    padding: 5px;
+    /* Optional: Add some spacing between images */
+    max-width: 25%;
+    /* 4 images in a row for desktop view */
+}
+
+.popular-title {
+    padding-left: 2rem;
+}
+
+.row1,
+.row2,
+.row3 {
+    padding: 1rem;
+}
+
+#email {
+    width: 100px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+
+}
+
+.support p {
+    text-wrap: wrap;
+}
+
+@media(max-width:675px) {
+
+    nav {
+        display: none;
+    }
+
+    .row1 {
+        max-width: 50%;
+        height: fit-content;
+        justify-content: space-between;
+        /* 2 images in a row for mobile view */
+    }
+
+    .mob-search-box {
+        display: block;
+    }
+
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        float: none;
+        justify-content: space-between;
+    }
+
+
+    .ctgry-img-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .menu-icon {
+        display: block;
+        justify-content: flex-end;
+        margin-left: 45px;
+    }
+
+    input {
+        margin-right: 5%;
+        order: 1;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row,
+    .row2,
+    .row3 {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        /* Two cards in a row for mobile view */
+    }
+
+
+
+
+
+}
